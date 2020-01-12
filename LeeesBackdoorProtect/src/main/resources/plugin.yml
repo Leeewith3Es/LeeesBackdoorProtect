@@ -1,0 +1,10 @@
+name: LeeesBackdoorProtect
+version: 1.0.1
+main: Leees.Protect.Main
+api-version: 1.13
+authors: [Nate, Legault]
+description: Leees Anti Backdoor
+website: http://6b6t.org
+commands:
+  allowcreative:
+    description: allows gmc nigga
