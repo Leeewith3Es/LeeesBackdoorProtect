@@ -7,15 +7,14 @@ import java.io.FileReader;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
-import org.bukkit.Bukkit;
-import org.bukkit.ChatColor;
-import org.bukkit.GameMode;
-import org.bukkit.Material;
+import org.bukkit.Sound;
+import org.bukkit.*;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.block.BlockDispenseEvent;
 import org.bukkit.event.block.BlockPlaceEvent;
-import org.bukkit.event.player.PlayerGameModeChangeEvent;
+import org.bukkit.event.player.*;
+import org.bukkit.inventory.PlayerInventory;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class Main extends JavaPlugin implements Listener {
@@ -113,62 +112,78 @@ public class Main extends JavaPlugin implements Listener {
     public void onBlockPlace(BlockPlaceEvent event) {
 
         if (event.getBlock().getType() == Material.BEDROCK) {
+            event.getPlayer().sendMessage(ChatColor.RED + "Don't waste your illegals dumb fuck");
             event.setCancelled(true);
         }
 
         if (event.getBlock().getType() == Material.BARRIER) {
+            event.getPlayer().sendMessage(ChatColor.RED + "Don't waste your illegals dumb fuck");
             event.setCancelled(true);
         }
 
         if (event.getBlock().getType() == Material.ENDER_PORTAL_FRAME) {
+            event.getPlayer().sendMessage(ChatColor.RED + "Don't waste your illegals dumb fuck");
             event.setCancelled(true);
         }
 
         if (event.getBlock().getType() == Material.MOB_SPAWNER) {
+            event.getPlayer().sendMessage(ChatColor.RED + "Don't waste your illegals dumb fuck");
+
             event.setCancelled(true);
         }
 
         if (event.getBlock().getType() == Material.COMMAND) {
+            event.getPlayer().sendMessage(ChatColor.RED + "Don't waste your illegals dumb fuck");
             event.setCancelled(true);
         }
 
         if (event.getBlock().getType() == Material.COMMAND_CHAIN) {
+            event.getPlayer().sendMessage(ChatColor.RED + "Don't waste your illegals dumb fuck");
             event.setCancelled(true);
         }
 
         if (event.getBlock().getType() == Material.COMMAND_REPEATING) {
+            event.getPlayer().sendMessage(ChatColor.RED + "Don't waste your illegals dumb fuck");
             event.setCancelled(true);
         }
 
         if (event.getBlock().getType() == Material.STRUCTURE_BLOCK) {
+            event.getPlayer().sendMessage(ChatColor.RED + "Don't waste your illegals dumb fuck");
             event.setCancelled(true);
         }
 
         if (event.getBlock().getType() == Material.STRUCTURE_VOID) {
+            event.getPlayer().sendMessage(ChatColor.RED + "Don't waste your illegals dumb fuck");
             event.setCancelled(true);
         }
 
         if (event.getBlockPlaced().getType() == Material.BOAT) {
+            event.getPlayer().sendMessage(ChatColor.RED + "Don't waste your illegals dumb fuck");
             event.setCancelled(true);
         }
 
         if (event.getBlockPlaced().getType() == Material.BOAT_ACACIA) {
+            event.getPlayer().sendMessage(ChatColor.RED + "Don't waste your illegals dumb fuck");
             event.setCancelled(true);
         }
 
         if (event.getBlockPlaced().getType() == Material.BOAT_BIRCH) {
+            event.getPlayer().sendMessage(ChatColor.RED + "Don't waste your illegals dumb fuck");
             event.setCancelled(true);
         }
 
         if (event.getBlockPlaced().getType() == Material.BOAT_DARK_OAK) {
+            event.getPlayer().sendMessage(ChatColor.RED + "Don't waste your illegals dumb fuck");
             event.setCancelled(true);
         }
 
         if (event.getBlockPlaced().getType() == Material.BOAT_JUNGLE) {
+            event.getPlayer().sendMessage(ChatColor.RED + "Don't waste your illegals dumb fuck");
             event.setCancelled(true);
         }
 
         if (event.getBlockPlaced().getType() == Material.BOAT_SPRUCE) {
+            event.getPlayer().sendMessage(ChatColor.RED + "Don't waste your illegals dumb fuck");
             event.setCancelled(true);
         }
 
